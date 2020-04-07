@@ -1,0 +1,263 @@
+/*html{
+    box-sizing: border-box;
+}*/
+.backg {
+    width: 1260px;
+    height: 880px;
+    background-color: #edf2c5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo_part {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 159px;
+    padding-top: 53px;
+}
+
+.logo_word {
+    width: 271px;
+    height: 42px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+}
+
+.logo_icons {
+    display: flex;
+    padding-right: 160px;
+    padding-top: 8px;
+}
+
+.logo_login_box {
+    width: 70px;
+    height: 25px;
+    border-radius: 3px;
+    border: solid 1px #778a50;
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #778a50;
+}
+
+.logo_join_box {
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    border: solid 1px #778a50;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #778a50;
+}
+
+.logo_line {
+    height: 25px;
+    border: solid 1px #778a50;
+    margin-right: 10px;
+}
+
+.logo_ig {
+    margin-right: 10px;
+}
+
+.logo_fb {
+    margin-right: 10px;
+}
+
+.navbar {
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: auto;
+    margin-top: 8px;
+    display: flex;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    align-items: center;
+}
+
+.nav_Home {
+    margin-left: 30px;
+}
+
+.nav_AboutUs {
+    margin-left: 30px;
+}
+
+.nav_Vegetables {
+    margin-left: 30px;
+}
+
+.nav_Online {
+    margin-left: 30px;
+}
+
+.nav_Contact {
+    margin-left: 30px;
+}
+
+.main_photo {
+    display: block;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.topic {
+    width: 940px;
+    height: 45px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+}
+
+.topic_vegetables {
+    width: 445px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    padding-left: 30px;
+    line-height: 2.8;
+}
+
+
+
+.topic_contact {
+    width: 445px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin-left: 50px;
+    padding-left: 30px;
+    line-height: 2.8;
+}
+
+
+.article {
+    margin: auto;
+    margin-top: 15px;
+    width: 940px;
+    height: 140px;
+    display: flex;
+}
+
+.article_photo {
+    width: 445px;
+    height: 140px;
+    display: flex;
+}
+
+.article_photo2 {
+    margin-left: 12px;
+}
+
+.article_photo3 {
+    margin-left: 12px;
+}
+
+.alltext {
+    width: 445px;
+    height: 140px;
+    border-radius: 3px;
+    background-color: #f7fbda;
+    margin-left: 51px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text1 {
+    width: 410px;
+    height: 43px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    margin-top: 16px;
+}
+
+.textline {
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin-top: 14px;
+}
+
+.text2 {
+    width: 193px;
+    height: 31px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    margin: auto;
+}
+
+.footertext {
+    width: 302px;
+    height: 11px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin: auto;
+    
+}
